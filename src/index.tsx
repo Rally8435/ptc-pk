@@ -5,6 +5,9 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
+import HeaderStaticComponent from './components/static/header';
+import NavbarStaticComponent from './components/static/navbar';
+import FooterStaticComponent from './components/static/footer';
 import HomePage from './pages/home';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -15,9 +18,14 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+      <HeaderStaticComponent />
+      <NavbarStaticComponent />
+
       <Routes>
         <Route path='' element={<HomePage />} />
       </Routes>
+
+      <FooterStaticComponent />
     </BrowserRouter>
   </React.StrictMode>
 );
