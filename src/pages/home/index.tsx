@@ -1,9 +1,10 @@
 import React from "react";
+import SliderComponent from "./slider";
 
 function HomePage() {
   return (
-    <main className="bg-[black]">
-      <h1 className="text-[red]">HomePage is works!</h1>
+    <main>
+      <SliderComponent />
     </main>
   )
 }
