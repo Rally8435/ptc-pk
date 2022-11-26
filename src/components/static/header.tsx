@@ -2,7 +2,7 @@ import React from "react";
 
 function HeaderStaticComponent() {
   return (
-    <header>
+    <header hidden>
       <p>HeaderStaticComponent is works!</p>
     </header>
   )
