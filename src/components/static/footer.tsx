@@ -45,7 +45,9 @@ function FooterStaticComponent() {
           </ul>
         </div>
 
-        <div className="flex-1 text-center rounded bg-[#f5f5f5]">XXX</div>
+        <div className="flex flex-1 justify-center">
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F100087123962681&amp;tabs=timeline&amp;width=418&amp;height=360&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=true&amp;show_facepile=true&amp;appId" width="418" height="360" scrolling="no" frameBorder="0" allowFullScreen={true} allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" style={{ border: 'none', overflow: 'hidden', borderRadius: '4px' }}></iframe>
+        </div>
       </div>
     </footer>
   )
