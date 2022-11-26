@@ -31,7 +31,20 @@ function FooterStaticComponent() {
           </div>
         </div>
 
-        <div className="flex-1 text-center rounded bg-[#f5f5f5]">XXX</div>
+        <div className="flex-1 text-[#aaa]">
+          <p className="text-lg text-[#eee]">หน่วยงานส่วนอื่นๆ</p>
+
+          <ul className="mt-2 list-disc list-inside">
+            <li><a rel="nofollow" href="https://www.v-cop.go.th/v-cop/" title="ศูนย์เครือข่ายกำลังคนอาชีวศึกษา" className="text-sm leading-[1.8rem] font-light">ศูนย์เครือข่ายกำลังคนอาชีวศึกษา</a></li>
+            <li><a rel="nofollow" href="https://www.moe.go.th/" title="กระทรวงศึกษาธิการ" className="text-sm leading-[1.8rem] font-light">กระทรวงศึกษาธิการ</a></li>
+            <li><a rel="nofollow" href="https://www.obec.go.th/" title="สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน" className="text-sm leading-[1.8rem] font-light">สำนักงานคณะกรรมการการศึกษาขั้นพื้นฐาน</a></li>
+            <li><a rel="nofollow" href="https://opec.go.th/" title="สำนักงานคณะกรรมการส่งเสริมการศึกษาเอกชน" className="text-sm leading-[1.8rem] font-light">สำนักงานคณะกรรมการส่งเสริมการศึกษาเอกชน</a></li>
+            <li><a rel="nofollow" href="https://www.ksp.or.th/ksp2018/" title="คุรุสภา" className="text-sm leading-[1.8rem] font-light">คุรุสภา</a></li>
+            <li><a rel="nofollow" href="https://www.studentloan.or.th/index.php" title="กองทุนกู้ยืมเพื่อการศึกษา" className="text-sm leading-[1.8rem] font-light">กองทุนกู้ยืมเพื่อการศึกษา</a></li>
+            <li><a rel="nofollow" href="https://vesar.org/#/" title="ระบบรายงานการประเมินตนเองของสถานศึกษาอาชีวศึกษา" className="text-sm leading-[1.8rem] font-light">ระบบรายงานการประเมินตนเองของสถานศึกษาอาชีวศึกษา</a></li>
+          </ul>
+        </div>
+
         <div className="flex-1 text-center rounded bg-[#f5f5f5]">XXX</div>
       </div>
     </footer>
